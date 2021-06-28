@@ -5,10 +5,10 @@
  workflows:
   app-tests:
     jobs:
-      build: 
-     executor:
-      name: node/default
-      tag: '10.4'
+#        build: 
+#      executor:
+#       name: node/default
+#       tag: '10.4'
        - node/test
 
 
